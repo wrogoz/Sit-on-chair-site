@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sit on chair</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
     
 </head>
@@ -25,24 +26,30 @@
     </header>
     <section class="slider-section">
         <div class="container slider-section__global">
-            
-            <img src="images/black_chair.png" alt="chair-image">
+            <span class="container slider-section__global--arrow"><</span>
+            <img src="images/black_chair.png" alt="chair-image" class="slider-section__global--blackchair">
             <div class="sldier-section__txt">
-                <h1>Sit on our chair</h1>
+                <h1>Sit <span>on</span> our <span>chair</span></h1>
                 <p>Bacon ipsum dolor amet ribeye frankfurter beef doner, 
                     brisket meatball cupim pork belly pig porchetta hamburger spare ribs
                 chuck landjaeger burgdoggen. Alcatra ground round pig shankle sirloin,
                  drumstick brisket chuck sausage pork.</p>
+                 <span class="sldier-section__btn">Zobacz więcej</span>
             </div>
+            <span class="container slider-section__global--arrow">></span>
         </div>
     </section>
     <section class="images-section">
         <div class="container images-section__mainbox">
-            <div class="image-section__box image-section__box--first">
-               
+            <div class="image-section__box image-section__box--first chair-name">
+               <div class="img__background">
+                    <h3 >Chair CLAIR</h3>
+                </div>
             </div>
-            <div class="image-section__box image-section__box--second">
-                
+            <div class="image-section__box image-section__box--second chair-name">
+                <div class="img__background">
+                 <h3>Chair MARGARITA</h3>
+                </div>
             </div>
             <div class="image-section__box image-section__box--third">
                 <h3>Finds all inputs</h3>
@@ -56,10 +63,22 @@
     </section>
 
     <section class="section-price">
-        <div class="container ">
+        <div class="container">
             <h2>Cennik</h2>
             <div class="section-price__mainbox">
-                <div class="section-price__basic-plan"></div>
+                <div class="section-price__basic-plan">
+                    <p>Basic plan</p>
+                    <div class="section-price__basic-plan--circleprice">
+                        <p>85<sup>99</sup></p>
+                        <p>pln/mc</p>
+                    </div>
+                    <p>Zakup towaru + dowóz</p>
+                    <p>Serwis</p>
+                    <div class="section-price__basic-plan--btn-box" >
+                        <span>Dołącz</span>
+                    </div>
+                    
+                </div>
                 <div class="section-price__standard-plan"></div>
                 <div class="section-price__advance-plan"></div>
             </div>
@@ -68,7 +87,21 @@
     <section class="form-section">
         <div class="container">
             <h2>Kontakt</h2>
+            <div class="form__mainbox">
+                <div class="form-section__form">
+                    <form action="post" class="form-section__form--form">
+                        <input type="text" placeholder="Imię">
+                        <input type="email"placeholder="email">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </form>
+                </div>
+                <div class="form-section__sendBox">
+                    <img src="images/red_chair.png" alt="">
+                   <label for=""> <input type="radio">Zgadzam się na przetwarzanie danych osobowych</label>
+                   <span class="form-section__sendBox--btn">Wyślij</span>
+                </div>
 
+            </div>
         </div>
     </section>
 </body>
