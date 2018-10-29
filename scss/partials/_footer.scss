@@ -1,0 +1,22 @@
+ @import 'modules/variables';
+ .footer__box{
+     display:flex;
+     justify-content: space-between;
+ }
+ .footer__copy-rights{
+     flex-grow: 1;
+ }
+ .footer__icons-box{
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-grow: 0.6;
+ }
+ .footer__copy-rights{
+     color:#c2c2c2;
+ }
+ .footer__icons-box p{
+     text-transform: uppercase;
+     color: #c2c2c2;
+ }
+ 

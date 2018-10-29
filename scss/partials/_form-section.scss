@@ -1,0 +1,72 @@
+@import 'modules/variables';
+
+
+.form-section{
+    width:100%;
+    color:black;
+    padding:20px 0;
+    
+ }
+ .form-section__form{
+     width:60%;
+     
+ }
+ .form-section__form--form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin:10px 0;
+ }
+ input{
+     margin:10px 0;
+ }
+ label{
+     width:80%;
+    }
+ .form__mainbox{
+     display: flex;
+     justify-content: space-between;
+ }
+ .form-section__sendBox{
+     display:flex;
+     flex-direction: column;
+     align-items:center;
+     justify-content: center;
+     margin-left: 10px;
+ }
+ #redchair{
+     margin-bottom: 5%;
+ }
+ .form-section__confirm{
+     display:flex;
+     padding: 10px 0px 20px 50px;
+    
+     
+ }
+ .form-section__form--form input,
+ .form-section__form--form textarea{
+     font-size: 1.5em;
+     padding-left: 2%;
+ }
+.form-section__confirm img{
+    border: 1px solid #27c7ab;
+    width:70px;
+     
+}
+.form-section__confirm p{
+    align-self: center;
+    padding:15px;
+}
+
+ .form-section__sendBox--btn{
+     background-color:$main-color;
+     color:white;
+     padding: 10px;
+     border-radius: 12px;
+     width:80%;
+     height: 50px;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+ }

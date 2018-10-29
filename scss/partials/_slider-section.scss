@@ -1,0 +1,59 @@
+@import 'modules/variables';
+.slider-section{
+    width:100%;
+    
+    background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 28%, rgba(246,246,246,1) 77%, rgba(237,237,237,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(28%, rgba(255,255,255,1)), color-stop(77%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 28%, rgba(246,246,246,1) 77%, rgba(237,237,237,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 28%, rgba(246,246,246,1) 77%, rgba(237,237,237,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 28%, rgba(246,246,246,1) 77%, rgba(237,237,237,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 28%, rgba(246,246,246,1) 77%, rgba(237,237,237,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+}
+.slider-section__global{
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-top: 75px;
+    
+ }
+ .slider-section__global--arrow{
+    font-size:45px;
+    color:$main-color;
+    width: 5%;
+ }
+ .slider-section__global--blackchair{
+    height: auto; 
+ }
+
+ .sldier-section__txt{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-right: 40px;
+     padding: 10px;
+    }
+ .sldier-section__txt p{
+     padding: 10px;
+     font-size: 14px;
+     line-height: 25px;
+ }
+ .sldier-section__txt h1{
+     text-transform: uppercase;
+     text-align: center;
+     margin-bottom: 10px;
+     font-size: 36px;
+     padding-right: 100px;
+     letter-spacing: 2px;
+ }
+.sldier-section__txt span{
+    color:$main-color;
+}
+span.sldier-section__btn{
+    color:white;
+    background-color: $main-color;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 13px 13px 13px 13px;
+}

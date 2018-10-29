@@ -1,0 +1,53 @@
+ @import 'modules/variables';
+ .images-section{
+     padding-top: 20px;
+ }
+ .images-section__mainbox{
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+    padding-top: 20px;
+    padding-bottom: 30px;
+     
+ }
+ .image-section__box--first{
+    width:31%;
+    background-image: url(../images/box1_img.jpg);
+    height:225px;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .image-section__box--second{
+    background-image: url(../images/box2_img.jpg);
+    width:31%; 
+    height:225px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+ }
+ .image-section__box--third{
+    width:31%;
+    border:1px solid rgba(212, 212, 212, 0.788);
+ }
+  .image-section__box--third p{
+      padding:12px;
+  }
+ .image-section__box--third h3{
+     margin:12px;
+     border-bottom:5px solid $main-color;
+     width:40%;
+ }
+ .chair-name{
+     display:flex;
+     align-items: flex-end;
+     margin-bottom: 20px;
+ }
+ .img__background {
+    background-color: rgba(255, 250, 250, .7);
+    width:100%;
+ }
+ .img__background h3{
+     padding: 20px;
+ }
+ .image-section__box--third p:first-of-type{
+     margin-bottom: 12px;
+ }
