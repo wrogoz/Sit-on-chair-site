@@ -50,7 +50,7 @@
      padding-left: 2%;
  }
 .form-section__confirm img{
-    border: 1px solid #27c7ab;
+    border: 1px solid $main-color;
     width:70px;
      
 }
@@ -60,12 +60,11 @@
 }
 
  .form-section__sendBox--btn{
-     background-color:$main-color;
+    @include size(80%,50px); 
+    background-color:$main-color;
      color:white;
      padding: 10px;
      border-radius: 12px;
-     width:80%;
-     height: 50px;
      display:flex;
      justify-content: center;
      align-items: center;

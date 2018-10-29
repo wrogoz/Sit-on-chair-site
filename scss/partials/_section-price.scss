@@ -18,9 +18,8 @@
  .section-price__basic-plan,
  .section-price__standard-plan,
  .section-price__advance-plan{
-    width:31%;
+    @include size(31%,580px);
     max-height: 63%;
-    height:580px;
     min-height:600px;
     border:1px solid rgb(182, 182, 182);
     display: flex;
@@ -29,8 +28,7 @@
     margin-top: 4%;
  }
  .section-price--circle{
-     height:4rem;
-     width: 4rem;
+    @include size(4rem,4rem); 
      background-color: #f1f1f1;
      border:1px solid rgb(182, 182, 182);
      border-radius: 50%;
@@ -44,8 +42,7 @@
 }
   
  .section-price--innerCircle{
-     height:2rem;
-     width: 2rem;
+     @include size(2rem,2rem);
      background-color: #868686;
      border:1px solid rgb(182, 182, 182);
      border-radius: 50%;
@@ -105,8 +102,7 @@
  }
 
  .section-price__circleprice{
-     width: 100px;
-     height: 100px;
+     @include size(100px,100px);
      border-radius: 50%;
      background-color: #fff;
      display: flex;

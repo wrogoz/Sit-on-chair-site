@@ -57,11 +57,9 @@ li.dropdown:hover > ul {
 }
 
 li.dropdown > ul>div{
-    
+    @include size(10px,10px);
     z-index: 1;
     position: relative;
-    width:10px;
-    height: 10px;
     background-color: black;
     left:55px;
     top:-5px;
@@ -69,8 +67,6 @@ li.dropdown > ul>div{
 }
 li.dropdown>ul>li{
     line-height: 24px;
-   
-    
 }
 li.dropdown > ul>li:last-child{
      margin-right: 0px;

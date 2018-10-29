@@ -11,16 +11,14 @@
      
  }
  .image-section__box--first{
-    width:31%;
+     @include size(31%,225px);
     background-image: url(../images/box1_img.jpg);
-    height:225px;
     background-size: cover;
     background-repeat: no-repeat;
  }
  .image-section__box--second{
+     @include size(31%,225px);
     background-image: url(../images/box2_img.jpg);
-    width:31%; 
-    height:225px;
     background-size: cover;
     background-repeat: no-repeat; 
  }
