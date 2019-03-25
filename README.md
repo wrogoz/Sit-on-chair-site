@@ -7,6 +7,9 @@
 - Gulp
 - JavaScript
 
+# Features:
+- Chair compositor - calculator
+
 # To do:
 - RWD
 
